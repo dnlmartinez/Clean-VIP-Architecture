@@ -2,10 +2,12 @@
 # platform :ios, '9.0'
 
 target 'Clean-VIP' do
-  # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-
-  # Pods for Clean-VIP
   pod 'SDWebImage', '~> 5.0'
 
+end
+
+target 'Clean-VIP-Unit-Testing' do
+  inherit! :search_paths
+  pod 'SnapshotTesting'
 end

@@ -39,6 +39,8 @@
 		E9AA987327FDB2AA00B79324 /* Clean_VIP_Unit_Testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AA987227FDB2AA00B79324 /* Clean_VIP_Unit_Testing.swift */; };
 		E9AA988027FDB2C700B79324 /* Clean_VIP_UI_Testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AA987F27FDB2C700B79324 /* Clean_VIP_UI_Testing.swift */; };
 		E9AA988227FDB2C700B79324 /* Clean_VIP_UI_TestingLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AA988127FDB2C700B79324 /* Clean_VIP_UI_TestingLaunchTests.swift */; };
+		E9AA993227FEC9A200B79324 /* CharactersData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AA993127FEC9A200B79324 /* CharactersData.swift */; };
+		E9AA996127FEE26000B79324 /* Clean_VIP_Snapshot_Testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AA996027FEE26000B79324 /* Clean_VIP_Snapshot_Testing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +97,8 @@
 		E9AA987D27FDB2C700B79324 /* Clean-VIP-UI-Testing.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clean-VIP-UI-Testing.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9AA987F27FDB2C700B79324 /* Clean_VIP_UI_Testing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clean_VIP_UI_Testing.swift; sourceTree = "<group>"; };
 		E9AA988127FDB2C700B79324 /* Clean_VIP_UI_TestingLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clean_VIP_UI_TestingLaunchTests.swift; sourceTree = "<group>"; };
+		E9AA993127FEC9A200B79324 /* CharactersData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersData.swift; sourceTree = "<group>"; };
+		E9AA996027FEE26000B79324 /* Clean_VIP_Snapshot_Testing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clean_VIP_Snapshot_Testing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -327,6 +331,8 @@
 			isa = PBXGroup;
 			children = (
 				E9AA987227FDB2AA00B79324 /* Clean_VIP_Unit_Testing.swift */,
+				E9AA996027FEE26000B79324 /* Clean_VIP_Snapshot_Testing.swift */,
+				E9AA995F27FEE13500B79324 /* Data */,
 			);
 			path = "Clean-VIP-Unit-Testing";
 			sourceTree = "<group>";
@@ -338,6 +344,14 @@
 				E9AA988127FDB2C700B79324 /* Clean_VIP_UI_TestingLaunchTests.swift */,
 			);
 			path = "Clean-VIP-UI-Testing";
+			sourceTree = "<group>";
+		};
+		E9AA995F27FEE13500B79324 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E9AA993127FEC9A200B79324 /* CharactersData.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -504,7 +518,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9AA996127FEE26000B79324 /* Clean_VIP_Snapshot_Testing.swift in Sources */,
 				E9AA987327FDB2AA00B79324 /* Clean_VIP_Unit_Testing.swift in Sources */,
+				E9AA993227FEC9A200B79324 /* CharactersData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
