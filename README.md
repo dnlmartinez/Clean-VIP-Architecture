@@ -62,10 +62,17 @@ The Marvel Comics API is a RESTful service which provides methods for accessing 
 We will have a simple GET query to the following endpoint "/v1/public/characters", we will show a list of characters and clicking on an item will present the detail view.
 
 
+
+## Unit Testing & Snapshot Testing
+
+
+Unit testing and snapshot testing were implemented to show the ease of use of the chosen architecture
+
+
 ## Requirements
 
-- iOS 13.3+ 
-- Xcode 10
+- iOS 13+ 
+- Xcode 13.3
 
 #### CocoaPods (iOS 13+)
 
