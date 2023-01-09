@@ -22,7 +22,6 @@ class CharacterInteractorImplementation: CharacterInteractor {
     
     func viewDidLoad()  {
         
-        
         characterService.getCharacter { result in
             if result.count > 0{
                 self.characters = result
@@ -34,7 +33,6 @@ class CharacterInteractorImplementation: CharacterInteractor {
             self.presenter?.interactor(didFailRetrieveCharacters: error)
         }
 
-        
     }
     
     func didSelectRow(at index: Int) {

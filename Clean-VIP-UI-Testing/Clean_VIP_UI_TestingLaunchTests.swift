@@ -3,7 +3,6 @@
 //  Clean-VIP-UI-Testing
 //
 //  Created by daniel martinez gonzalez on 6/4/22.
-//  Copyright © 2022 Zafar. All rights reserved.
 //
 
 import XCTest

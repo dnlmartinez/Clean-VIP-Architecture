@@ -11,11 +11,10 @@ protocol CharacterPresenter: AnyObject {
     func interactor(didRetrieveCharacters characters: [CharacterModel])
     func interactor(didFailRetrieveCharacters error: Error)
     func interactor(didFailRetrieveCharacters message: String)
-    
     func interactor(didPresentCharacter character: CharacterModel)
     func interactor(didFailPresentCharacter error: Error)
-    
 }
+
 
 class CharacterPresenterImplementation: CharacterPresenter {
     weak var viewController: CharacterPresenterOutput?

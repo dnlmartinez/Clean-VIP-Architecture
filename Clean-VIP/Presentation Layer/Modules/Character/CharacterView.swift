@@ -74,7 +74,7 @@ class CharacterView: UIView {
         label.textColor = .darkGray
         view.translatesAutoresizingMaskIntoConstraints = false
         
-        let indicator = MaterialActivityIndicatorView(frame: CGRect(x: 30, y: 50, width: 140, height: 140))
+        let indicator = MaterialActivityIndicatorView(frame: CGRect(x: self.frame.size.width / 2, y: self.frame.size.height / 2, width: 140, height: 140))
         indicator.color =  UIColor.init(named: "RedMarvel")!
         indicator.startAnimating()
         view.translatesAutoresizingMaskIntoConstraints = false
@@ -82,18 +82,18 @@ class CharacterView: UIView {
         view.addSubview(label)
         view.addSubview(indicator)
         
-        NSLayoutConstraint.activate([
-            indicator.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            indicator.centerYAnchor.constraint(equalTo: view.centerYAnchor)
-        ])
+//        NSLayoutConstraint.activate([
+//            indicator.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+//            indicator.centerYAnchor.constraint(equalTo: view.centerYAnchor)
+//        ])
+//
+//        NSLayoutConstraint.activate([
+//            label.leftAnchor.constraint(equalTo: view.leftAnchor),
+//            label.rightAnchor.constraint(equalTo: view.rightAnchor),
+//            label.topAnchor.constraint(equalTo: indicator.bottomAnchor)
+//        ])
         
-        NSLayoutConstraint.activate([
-            label.leftAnchor.constraint(equalTo: view.leftAnchor),
-            label.rightAnchor.constraint(equalTo: view.rightAnchor),
-            label.topAnchor.constraint(equalTo: indicator.bottomAnchor)
-        ])
-        
-        view.translatesAutoresizingMaskIntoConstraints = false
+        //view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
 }
